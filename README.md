@@ -18,7 +18,10 @@ npm i framer-motion clsx tailwind-merge
 npm install tailwindcss-animate
 npm install mini-svg-data-uri
 npm i next-themes
+npx @sentry/wizard@latest -i nextjs
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+used sentry
 
 Src: https://ui.aceternity.com/
 
