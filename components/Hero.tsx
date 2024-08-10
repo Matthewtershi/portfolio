@@ -21,7 +21,7 @@ const Hero = () => {
         <div className="flex justify-center relative my-20 z-10">
             <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
                 <h2 className="uppercase tracking-widest text-cs text-center text-blue-100 max-w-80"> 
-                    Nihao with Next.js 
+                    project graduated
                 </h2>
 
                 <TextGenerateEffect 
@@ -30,10 +30,10 @@ const Hero = () => {
                 />
 
                 <p className="text-center md:tracking wider mb-4 text-sm md:text-lg lg:text-2xl">
-                    An experimental product of Matthew Shi&apos;s mind
+                    Commemorating Matthew Shi&apos;s highs and lows
                 </p>
 
-                <a href="#about">
+                <a href="#projects">
                     <MagicButton 
                     title="Explore"
                     icon={<FaLocationArrow />}
