@@ -63,7 +63,7 @@ export const projects = [
     {
         id: 1,
         title: "Wordle Bot",
-        description: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+        description: "Developed a trend analysis program to formulate solutions to the famous NYT game by utilizing information theory, Python pandas, and numpy",
         img: "/p1.svg",
         iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
         link: "https://github.com/adrianhajdin?tab=repositories",
@@ -195,13 +195,16 @@ export const socialMedia = [
     {
         id: 1,
         img: "/git.svg",
+        link: "https://github.com/Matthewtershi"
     },
     {
         id: 2,
-        img: "/twit.svg",
+        img: "/inst.svg",
+        link: "https://www.instagram.com/matthew.sih8/",
     },
     {
         id: 3,
         img: "/link.svg",
+        link: "https://www.linkedin.com/in/matthew-shi-a2376b239/",
     },
 ];
