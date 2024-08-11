@@ -1,3 +1,9 @@
+import p1 from "./assets/john.png"
+import p2 from "./assets/john2.png"
+import p3 from "./assets/View recent photos.jpg"
+
+const IMAGES = [p1.src, p2.src, p3.src];
+
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
@@ -13,11 +19,7 @@ export const gridItems = [
         className: "lg:col-span-2 lg:row-span-2",
         //className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
         imgClassName: "w-full h-full",
-        images: [
-            "../../assets/john.png", 
-            "../../assets/john2.png", 
-            "../../assets/ViewRecentPhotos.jpg"
-        ],
+        images: IMAGES,
     },
     {
         id: 2,
@@ -26,7 +28,7 @@ export const gridItems = [
         className: "lg:col-span-1 lg:row-span-1", 
         //className: "lg:col-span-2 md:col-span-3 md:row-span-2",
         imgClassName: "",
-        images: ["C:\Users\matth\VSC\Projects\projectgrad\assets\john.png", "C:\Users\matth\VSC\Projects\projectgrad\assets\john2.png", "C:\Users\matth\VSC\Projects\projectgrad\assets\View recent photos.jpg"],
+        images: IMAGES,
     },
     {
         id: 3,
@@ -35,7 +37,7 @@ export const gridItems = [
         className: "lg:col-span-1 lg:row-span-1",
         //className: "lg:col-span-2 md:col-span-3 md:row-span-2",
         imgClassName: "",
-        images: ["C:\Users\matth\VSC\Projects\projectgrad\assets\john.png", "C:\Users\matth\VSC\Projects\projectgrad\assets\john2.png", "C:\Users\matth\VSC\Projects\projectgrad\assets\View recent photos.jpg"],
+        images: IMAGES,
     },
     {
         id: 4,
@@ -44,9 +46,8 @@ export const gridItems = [
         className: "lg:col-span-1 lg:row-span-1",
         //className: "lg:col-span-2 md:col-span-3 md:row-span-1",
         imgClassName: "",
-        images: ["C:\Users\matth\VSC\Projects\projectgrad\assets\john.png", "C:\Users\matth\VSC\Projects\projectgrad\assets\john2.png", "C:\Users\matth\VSC\Projects\projectgrad\assets\View recent photos.jpg"],
+        images: IMAGES,
     },
-
     {
         id: 5,
         title: "Brainrot",
@@ -54,7 +55,7 @@ export const gridItems = [
         //className: "md:col-span-3 md:row-span-2",
         className: "lg:col-span-2 lg:row-span-1",
         imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-        images: ["C:\Users\matth\VSC\Projects\projectgrad\assets\john.png", "C:\Users\matth\VSC\Projects\projectgrad\assets\john2.png", "C:\Users\matth\VSC\Projects\projectgrad\assets\View recent photos.jpg"],
+        images: IMAGES,
     },
 ];
 
@@ -85,7 +86,7 @@ export const projects = [
     },
     {
         id: 4,
-        title: "Animated Apple Iphone 3D Website",
+        title: "Advanced CS Course",
         description: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
         img: "/p4.svg",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],

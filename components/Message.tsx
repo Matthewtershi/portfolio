@@ -4,12 +4,12 @@ import React, { useState } from "react";
 import Grid from "@/components/Grid";
 
 const Message = () => {
-  const [answers, setAnswers] = useState({ q1: "", q2: "", q3: "" });
+  const [answers, setAnswers] = useState({ q1: "enter your answer here", q2: "enter your answer here", q3: "enter your answer here" });
   const [showGrid, setShowGrid] = useState(false);
 
   const correctAnswers = {
     q1: ["ur gay", "youre gay", "you're gay", "a"],
-    q2: ["fenghuang", "feng huang", "a"],
+    q2: ["fenghuang", "feng huang", "fenghuangcheng", "feng huang cheng", "a"],
     q3: ["your worst enemy is yourself", "my worst enemy is myself", "a"],
   };
 
@@ -37,38 +37,38 @@ const Message = () => {
       <h1 className="heading mt-20">
         A section dedicated to <span className="text-purple">family</span>
       </h1>
-      <div className="my-10">
-        <div className="mb-3">
-          <label htmlFor="q1"> Guess woot; woot; ... </label>
+      <div className="my-10 w-full max-w-md mx-auto">
+        <div className="mb-6 text-center">
+          <label htmlFor="q1" className="block text-lg font-semibold mb-2 text-purple"> Guess woot? woot. ... </label>
           <input
             type="text"
             name="q1"
             value={answers.q1}
             onChange={handleChange}
-            className="input-class relative z-20"
+            className="text-center input-class relative z-20"
           />
         </div>
-        <div className="mb-3">
-          <label htmlFor="q2"> Where did I get my one and only bracelet? (pinyin works) </label>
+        <div className="mb-6 text-center">
+          <label htmlFor="q2" className="block text-lg font-semibold mb-2 text-purple"> Where did I get my one and only bracelet? (pinyin works) </label>
           <input
             type="text"
             name="q2"
             value={answers.q2}
             onChange={handleChange}
-            className="input-class relative z-20"
+            className="text-center input-class relative z-20"
           />
         </div>
-        <div className="mb-3">
-          <label htmlFor="q3"> What was the main qute coach Brian always told me? (dont write the quotes) </label>
+        <div className="mb-6 text-center">
+          <label htmlFor="q3" className="block text-lg font-semibold mb-2 text-purple"> What was the main quote coach Brian always told me? (don&apos;t write the quotes) </label>
           <input
             type="text"
             name="q3"
             value={answers.q3}
             onChange={handleChange}
-            className="input-class relative z-20"
+            className="text-center input-class relative z-20"
           />
         </div>
-        <button onClick={checkAnswers} className="button-class relative z-20">
+        <button onClick={checkAnswers} className="mx-auto flex justify-center button-class relative z-20">
           Submit
         </button>
       </div>

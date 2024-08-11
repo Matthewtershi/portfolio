@@ -15,6 +15,7 @@ export default function Home() {
         <FloatingNav navItems={navItems} />
         <Hero />
         {/* find aceternity ui for paragraph of text*/}
+        <Grid />
         <RecentProjects />
         <Quotes />
         <Message />
