@@ -6,7 +6,7 @@ import Gift from "./Gift";
 import Confetti from "../public/confetti.gif"; // Import GIF correctly
 
 const Message = () => {
-  const [answers, setAnswers] = useState({ q1: "", q2: "", q3: "" });
+  const [answers, setAnswers] = useState({ q1: "enter your answer here", q2: "enter your answer here", q3: "enter your answer here" });
   const [showGrid, setShowGrid] = useState(false);
   const [showConfetti, setShowConfetti] = useState(false);
   const [gifPlayed, setGifPlayed] = useState(false);
@@ -34,7 +34,7 @@ const Message = () => {
       if (!gifPlayed) {
         setShowConfetti(true);
         setGifPlayed(true);
-        setTimeout(() => setShowConfetti(false), 1500); // Adjust timeout to match GIF duration
+        setTimeout(() => setShowConfetti(false), 1500);
       }
     } else {
       alert("Some answers are incorrect. Please try again.");
@@ -43,7 +43,7 @@ const Message = () => {
 
   return (
     <div className="flex flex-col relative z-10 mb-20 items-center justify-center" id="message">
-      <h1 className="heading mt-20">
+      <h1 className="heading mt-20 mb-10">
         A section dedicated to <span className="text-purple">family</span>
       </h1>
       <div className="my-10 w-full max-w-7xl mx-auto flex flex-col items-center">
@@ -82,7 +82,7 @@ const Message = () => {
         <div className="relative flex items-center justify-center">
           <button
             onClick={checkAnswers}
-            className="border-2 border-white px-4 py-2 rounded-xl mx-auto mt-10 flex justify-center button-class relative z-20"
+            className="border-2 border-white px-8 py-3 rounded-xl mx-auto mt-10 flex justify-center button-class relative z-20"
           >
             Submit
           </button>
@@ -95,8 +95,8 @@ const Message = () => {
                 top: '50%',
                 left: '50%',
                 transform: 'translate(-50%, -50%)',
-                width: '10vw',
-                height: 'auto',
+                width: '300px',
+                height: '300px',
                 zIndex: 10,
               }}
             />

@@ -4,8 +4,8 @@ import { HoverEffect } from './ui/CardHover'
 
 const RecentProjects = () => {
   return (
-    <div className="py-20" id="projects">
-        <h1 className="heading">
+    <div className="z-10 py-20" id="projects">
+        <h1 className="heading py-10">
             A small selection of {' '}
             <span className="text-purple"> recent projects</span>
         </h1>

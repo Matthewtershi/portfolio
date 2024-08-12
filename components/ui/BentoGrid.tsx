@@ -39,14 +39,14 @@ export const BentoGridItem = ({
 }) => {
   const [currentImage, setCurrentImage] = useState(images?.[0]);
 
-  // useEffect(() => {
-  //     let currentIndex = 0;
-  //     const interval = setInterval(() => {
-  //         currentIndex = (currentIndex + 1) % images.length;
-  //         setCurrentImage(images[currentIndex]);
-  //     }, 10000);
-  //     return () => clearInterval(interval);
-  // }, [images]);
+  useEffect(() => {
+      let currentIndex = 0;
+      const interval = setInterval(() => {
+          currentIndex = (currentIndex + 1) % images.length;
+          setCurrentImage(images[currentIndex]);
+      }, 10000);
+      return () => clearInterval(interval);
+  }, [images]);
 
   return (
     <div
@@ -86,7 +86,7 @@ export const BentoGridItem = ({
             {title}
           </span>
         </h2>
-        <p className="mt-2 text-purple text-lg font-bold">
+        <p className="mt-2 text-white text-lg font-bold">
           <span
             className="relative"
             style={{
