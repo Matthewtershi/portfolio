@@ -42,7 +42,8 @@ export const BentoGridItem = ({
   useEffect(() => {
       let currentIndex = 0;
       const interval = setInterval(() => {
-          currentIndex = (currentIndex + 1) % images.length;
+          // currentIndex = (currentIndex + 1) % images.length;
+          currentIndex = (Math.floor(Math.random() * images.length));
           setCurrentImage(images[currentIndex]);
       }, 10000);
       return () => clearInterval(interval);

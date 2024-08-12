@@ -8,7 +8,7 @@ const Quotes = () => {
         <h1 className="heading">
             A set of {' '}
             <span className="text-purple"> quotes </span>
-            {' '} I like to live by
+            {' '} I like to think about
         </h1>
         <div className="flex flex-col items-center md:mt-10">
             <InfiniteMovingCards className="h-[50vh] flex flex-col rounded-md antialiaseed md:h-[30rem] overflow-hidden items-center relative"

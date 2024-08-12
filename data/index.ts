@@ -116,65 +116,65 @@ export const projects = [
         title: "Wordle Bot",
         description: "Developed a trend analysis program to formulate solutions to the famous NYT game by utilizing information theory, Python pandas, and numpy.",
         img: "/wordle.svg",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-        link: "https://github.com/adrianhajdin?tab=repositories",
+        iconLists: ["/python-svgrepo-com.svg", "/pandas-svgrepo-com.svg", "/plot-svgrepo-com.svg"],
+        link: "https://gitfront.io/r/Matthewtershi/4BEfMKwzCBRH/wordleBot/",
     },
     {
         id: 2,
         title: "STD Tempest Dynamic Weather App",
         description: "Programmed a dynamic weather app that emphasizes allergy monitoring and fluency over cpp and api implementation.",
         img: "/cloud.svg",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-        link: "https://github.com/adrianhajdin/zoom-clone",
+        iconLists: ["/api-interface-svgrepo-com.svg", "/cpp-svgrepo-com.svg", "/curl-svgrepo-com.svg", "/c.svg"],
+        link: "https://github.com/LasaACP/spring-practicum-2024-stdmtempest",
     },
     {
         id: 3,
         title: "AI Food Recognition and Calorie Tracker",
         description: "Exploring the development and basic structure of convolutional neural networks in image classification and algorithms to create a 95% accuracy prediction model. In the future, I plan to expand upon the test sets and introduce diverse cuisines to foster inclusion and improve health awareness.",
         img: "/food-ezgif.com-webp-to-jpg-converter.jpg",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-        link: "https://github.com/adrianhajdin/ai_saas_app",
+        iconLists: ["/python-svgrepo-com.svg", "/keras-svgrepo-com.svg", "/numpy-svgrepo-com.svg", "/plot-svgrepo-com.svg", "/machine-learning-model-svgrepo-com.svg"],
+        link: "https://gitfront.io/r/Matthewtershi/rgy3wVJ8iVef/foodRecog/",
     },
     {
         id: 4,
         title: "Advanced CS Course",
         description: "LASA Adv CS Repo 2023-2024 focusing exclusively on data structures and algorithms with CPP. From pointers to graphs and red-black trees, we explored the breadth and depth of each data structure and how to implement and understand them at a low level.",
         img: "/cpp.svg",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-        link: "https://github.com/adrianhajdin/iphone",
+        iconLists: ["/cpp-svgrepo-com.svg", "/c.svg"],
+        link: "https://gitfront.io/r/Matthewtershi/iqxJibjSHnvV/AdvCS2023-2024/",
     },
 ];
 
 export const testimonials = [
     {
         quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
+        "You deserve better and should acknowledge that you are capable of doing what anyone else can. How you perceive yourself becomes a massive part of how others will perceive you meaning you're not beneath anyone unless you put yourself there. Argue for your limitations and you get to keep them.",
+        name: "Illusions",
+        title: "Richard Bach",
     },
     {
         quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
+        "Talent is cheaper than table salt. What separates the talented individual from the successful one is a lot of hard work. It's the willingness to push beyond the boundaries of your comfort zone, to keep going when others would quit, that ultimately defines success.",
+        name: "On Write: A memoir of the Craft",
+        title: "Stephen King",
     },
     {
         quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
+        "People who work hard won’t always succeed but the people who succeed always work hard. Do you really have time to be looking down; Nothing is stopping you from taking the next step.",
+        name: "Haiykuu",
+        title: "Haruichi Furudate",
     },
     {
         quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
+        "People declare themselves experts, entrepreneurs, inventors, innovaters, mavericks, and coaches without any real-life experience. And they do this not because they actually think they are greater than everybody else; they do it because they feel that they need to be great to be accepted in a world that broadcasts only the extraordinary. The key to a good life is not giving a fk about more; it's giving a fk about less, giving a fk about only what is true and immediate and important.",
+        name: "The Subtle Art of Not Giving a Fck",
+        title: "Mark Manson",
     },
     {
         quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
+        "It’s terrifying how easy it is to lose yourself in the idea of being what other people want you to be. The hardest thing is to keep hold of who you are in the face of all the expectations, all the noise.",
+        name: "An Absolutely Remarkable Thing",
+        title: "Hank Green",
     },
 ];
 

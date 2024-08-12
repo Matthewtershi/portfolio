@@ -62,7 +62,7 @@ export const HoverEffect = ({
         <div className="flex items-center justify-between mt-7 mb-3">
             <div className="flex items-center">
                 {iconLists.map((icon) => (
-                    <div key={icon} className="border rounded-full border-white/[0.2] bg-black lg:w-7 lg:h-7 w-5 h-5 flex justify-center items-center">
+                    <div key={icon} className="border rounded-full border-white/[0.2] bg-black lg:w-8 lg:h-8 w-6 h-6 flex justify-center items-center">
                         <img src={icon} className="p-2" alt={icon}/>
                     </div>
                 ))}
