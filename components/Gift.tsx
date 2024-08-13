@@ -33,7 +33,7 @@ const Gift = () => {
                 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet" crossOrigin="anonymous"/>
                 <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet" crossOrigin="anonymous"/>
 
-                <script src="main.js" type="text/javascript"></script>
+                <script src="main.js" type="text/javascript" async></script>
             </Head>
 
             <div className="text"> Thank you for the past 18 years!</div>

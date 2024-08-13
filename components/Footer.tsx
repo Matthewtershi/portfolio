@@ -14,7 +14,7 @@ const Footer = () => {
             <h1 className="heading lg:max-w-[45vw]">
                 Reach <span className="text-purple">out!</span>
             </h1>
-            <p className="text-white-200 mt-5 text-center"> Got a question or want to collaborate? I'm open to connect! </p>
+            <p className="text-white-200 mt-5 text-center"> Got a question or want to collaborate? I&apos;m open to connect! </p>
 
             <a href="mailto:matthewtershi@gmail.com">
                 <MagicButton
