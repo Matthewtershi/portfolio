@@ -27,6 +27,7 @@ import i33 from "./assets/3.3.jpg"
 import i34 from "./assets/3.4.jpg"
 import i35 from "./assets/3.5.jpg"
 import i36 from "./assets/3.6.jpg"
+import i37 from "./assets/3.7.jpg"
 
 import i41 from "./assets/4.1.jpg"
 import i42 from "./assets/4.2.jpg"
@@ -36,6 +37,8 @@ import i45 from "./assets/4.5.jpg"
 import i46 from "./assets/4.6.jpg"
 import i47 from "./assets/4.7.jpg"
 import i48 from "./assets/4.8.jpg"
+import i49 from "./assets/4.9.jpg"
+import i410 from "./assets/4.10.jpg"
 
 import i51 from "./assets/5.1.jpg"
 import i52 from "./assets/5.2.jpg"
@@ -49,11 +52,20 @@ import i59 from "./assets/5.9.jpg"
 import i510 from "./assets/5.10.jpg"
 import i511 from "./assets/5.11.jpg"
 
+import i61 from "./assets/6.1.jpg"
+import i62 from "./assets/6.2.jpg"
+import i63 from "./assets/6.3.jpg"
+import i64 from "./assets/6.4.jpg"
+import i65 from "./assets/6.5.jpg"
+import i66 from "./assets/6.6.jpg"
+import i67 from "./assets/6.7.jpg"
+
 const baseball = [i11.src, i12.src, i13.src, i14.src, i15.src, i16.src, i17.src, i18.src, i19.src, i110.src, i111.src, i112.src];
 const travel = [i21.src, i22.src, i23.src, i24.src, i25.src, i26.src];
 const family = [i31.src, i32.src, i33.src, i34.src, i35.src, i36.src];
 const friends = [i41.src, i42.src, i43.src, i44.src, i45.src, i46.src, i47.src, i48.src];
 const brainrot = [i51.src, i52.src, i53.src, i54.src, i55.src, i56.src, i57.src, i58.src, i59.src, i510.src, i511.src];
+const fancy = [i61.src, i62.src, i63.src, i64.src, i65.src, i66.src, i67.src];
 
 export const navItems = [
     { name: "About", link: "#about" },
@@ -101,17 +113,21 @@ export const gridItems = [
     },
     {
         id: 5,
+        title: "Fancy",
+        description: "",
+        //className: "md:col-span-3 md:row-span-2",
+        className: "lg:col-span-1 lg:row-span-1",
+        imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+        images: fancy,
+    },
+    {
+        id: 6,
         title: "Brainrot",
         description: "I'm cooked",
         //className: "md:col-span-3 md:row-span-2",
         className: "lg:col-span-1 lg:row-span-1",
         imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
         images: brainrot,
-    },
-    {
-        id: 6,
-
-
     },
 ];
 

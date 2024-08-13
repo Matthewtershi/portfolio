@@ -337,7 +337,14 @@ const Gift = () => {
                 </div>
                 
             </div>
-            <div className="text"><a href="https://drive.google.com/file/d/1NeKWY9cGtlzdRQrEJyR62ivL_XzayMzW/view?usp=sharing" target="_blank" rel="noopener noreferrer"> Heres your video kar! </a></div>
+            <div className="text">
+                <a href="https://drive.google.com/file/d/1NeKWY9cGtlzdRQrEJyR62ivL_XzayMzW/view?usp=sharing" target="_blank" rel="noopener noreferrer"> Heres your video kar! </a>
+                <br/>
+                <a href="/thankyoudad.pdf" target="_blank" rel="noopener noreferrer"> A letter for dad </a>
+                <br/>
+                <a href="/thankyoumom.pdf" target="_blank" rel="noopener noreferrer"> A letter for mom </a> 
+            </div>
+
         </div>
     )
 }

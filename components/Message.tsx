@@ -12,8 +12,8 @@ const Message = () => {
   const [gifPlayed, setGifPlayed] = useState(false);
 
   const correctAnswers = {
-    q1: ["ur gay", "youre gay", "you're gay", "a"],
-    q2: ["fenghuang", "feng huang", "fenghuangcheng", "feng huang cheng", "a"],
+    q1: ["ur gay", "youre gay", "you're gay", "urgay"],
+    q2: ["fenghuang", "feng huang", "fenghuangcheng", "feng huang cheng"],
     q3: ["your worst enemy is yourself", "my worst enemy is myself", "a"],
   };
 
@@ -69,7 +69,7 @@ const Message = () => {
             />
           </div>
           <div className="mb-6 text-center w-full mx-2 p-4">
-            <label htmlFor="q3" className="block text-lg font-semibold mb-2 text-purple"> What was the main quote coach Brian always told me? (don&apos;t write the quotes) </label>
+            <label htmlFor="q3" className="block text-lg font-semibold mb-2 text-purple"> What was the main quote coach Brian always told me? (my worst enemy) </label>
             <input
               type="text"
               name="q3"
