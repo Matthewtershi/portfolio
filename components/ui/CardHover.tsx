@@ -28,6 +28,8 @@ export const HoverEffect = ({
   return (
     <Link
       href={link}
+      target="_blank" 
+      rel="noopener noreferrer"
       className="relative group block p-2 h-full w-full"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}

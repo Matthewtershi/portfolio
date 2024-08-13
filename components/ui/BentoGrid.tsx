@@ -66,10 +66,10 @@ export const BentoGridItem = ({
           <img
             src={currentImage}
             alt={currentImage}
-            // className="object-cover w-full h-full"
-            className={`w-full h-full ${
-              id === 5 ? "object-contain" : "object-cover"
-            }`}
+            className="object-cover w-full h-full"
+            // className={`w-full h-full ${
+            //   id === 5 ? "object-contain min-w-full min-h-full": "object-cover"
+            // }`}
           />
         )}
       </div>

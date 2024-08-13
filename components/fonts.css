@@ -1,0 +1,15 @@
+/* src/assets/fonts.css */
+@font-face {
+    font-family: 'CustomCursiveFont';
+    src: url('./CedarvilleCursive-Regular.ttf') format('truetype'); /* Update with your font's path and format */
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'CustomCursiveFont';
+    src: url('./CedarvilleCursive-Regular.ttf') format('truetype'); /* Example for a bold version */
+    font-weight: bold;
+    font-style: normal;
+}
+  

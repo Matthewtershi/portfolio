@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import React from 'react'
 import Head from 'next/head'
+import './style.css'
 
 const Gift = () => {
     const [duration, setDuration] = useState('1.2s');
@@ -24,10 +25,14 @@ const Gift = () => {
 
     return (
         // <div className="w-full bg-white z-10 border-red-500"> Test </div>
-        <div className="bg-white-100">
+        <div className="mb-20">
             <Head>
                 <link rel="stylesheet" href="/style.css"/>
-                <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet"/>
+                <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin="anonymous"/>
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous"/>
+                <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet" crossOrigin="anonymous"/>
+                <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet" crossOrigin="anonymous"/>
+
                 <script src="main.js" type="text/javascript"></script>
             </Head>
 
@@ -332,7 +337,7 @@ const Gift = () => {
                 </div>
                 
             </div>
-            <div className="text"> Heres your video kar: <a href="https://drive.google.com/file/d/1NeKWY9cGtlzdRQrEJyR62ivL_XzayMzW/view?usp=sharing">bruh</a></div>
+            <div className="text"><a href="https://drive.google.com/file/d/1NeKWY9cGtlzdRQrEJyR62ivL_XzayMzW/view?usp=sharing" target="_blank" rel="noopener noreferrer"> Heres your video kar! </a></div>
         </div>
     )
 }

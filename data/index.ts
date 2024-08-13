@@ -104,9 +104,14 @@ export const gridItems = [
         title: "Brainrot",
         description: "I'm cooked",
         //className: "md:col-span-3 md:row-span-2",
-        className: "lg:col-span-2 lg:row-span-1",
+        className: "lg:col-span-1 lg:row-span-1",
         imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
         images: brainrot,
+    },
+    {
+        id: 6,
+
+
     },
 ];
 

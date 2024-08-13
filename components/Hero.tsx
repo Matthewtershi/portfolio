@@ -4,6 +4,8 @@ import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import { MagicButton } from './ui/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa6'
 
+const words = ["Past", "Present", "Future"];
+
 const Hero = () => {
   return (
     <div className="pb-60 pt-36">
@@ -30,7 +32,7 @@ const Hero = () => {
                 />
 
                 <p className="text-center md:tracking wider mb-4 text-sm md:text-lg">
-                    Commemorating Matthew Shi&apos;s slightly tolerable character
+                    Commemorating Matthew Shi&apos;s slightly tolerable character and illustrating his incomplete narrative
                 </p>
 
                 <a href="#projects">

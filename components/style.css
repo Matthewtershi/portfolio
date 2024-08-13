@@ -1,3 +1,5 @@
+@import './fonts.css';
+
 *,
 *::after,
 *::before {
@@ -14,7 +16,10 @@
   text-align: center;
   color: #fff;
   font-size: 4em;
-  font-family: 'Cedarville Cursive', cursive;
+  font-family: 'CustomCursiveFont', cursive;
+  src: url('./CedarvilleCursive-Regular.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
 }
 
 body {
