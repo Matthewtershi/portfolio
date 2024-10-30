@@ -8,7 +8,7 @@ const words = ["Past", "Present", "Future"];
 
 const Hero = () => {
   return (
-    <div className="pb-60 pt-36">
+    <div className="pb-60 pt-36 mb-20">
         <div>
             <Spotlight className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen" fill="white" />
             <Spotlight className="-top-40 -left-full h-[80vh] w-[50vw]" fill="purple" />
@@ -28,11 +28,12 @@ const Hero = () => {
 
                 <TextGenerateEffect 
                     className="text-center text-[40px] md:text-5xl lg:text-6xl"
-                    words="A Documentary of the Past"
+                    words="Hi, I'm Matthew"
                 />
 
-                <p className="text-center md:tracking wider mb-4 text-sm md:text-lg">
-                    Commemorating Matthew Shi&apos;s slightly tolerable character and illustrating his incomplete narrative
+                <p className="text-center md:tracking wider mb-4 text-md md:text-xl">
+                    I'm currently a freshman at Texas A&M University
+                    interested in <span className="text-purple">machine learning</span>, <span className="text-purple">environmental work</span>, and <span className="text-purple">service</span>
                 </p>
 
                 <a href="#projects">
@@ -43,6 +44,10 @@ const Hero = () => {
                 />
                 </a>
             </div>
+
+            {/* <div className="bg-pink-50 mx-[15vw]">
+                animation
+            </div> */}
         </div>
     </div>
   )

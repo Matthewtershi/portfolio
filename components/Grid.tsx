@@ -9,7 +9,7 @@ const Grid = () => {
             A set of my favorite {' '}
             <span className="text-purple"> memories </span>
         </h1>
-      <section className="mt-5 mb-20" style={{ userSelect: 'none' }}>
+      <section className="mt-5 mb-20 rounded-3xl border border-slate-800 p-3" style={{ userSelect: 'none' }}>
           <BentoGrid>
               {gridItems.map((item) => (
                   <BentoGridItem

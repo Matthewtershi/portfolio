@@ -6,6 +6,7 @@ import Gift from "./Gift";
 import Confetti from "../public/confetti.gif"; // Import GIF correctly
 
 const Message = () => {
+  console.log(process.env.REACT_APP_Q1_ANSWERS)
   const [answers, setAnswers] = useState({ q1: "enter your answer here", q2: "enter your answer here", q3: "enter your answer here" });
   const [showGrid, setShowGrid] = useState(false);
   const [showConfetti, setShowConfetti] = useState(false);
@@ -14,8 +15,8 @@ const Message = () => {
   const correctAnswers = {
     q1: ["ur gay", "youre gay", "you're gay", "urgay"],
     q2: ["fenghuang", "feng huang", "fenghuangcheng", "feng huang cheng"],
-    q3: ["your worst enemy is yourself", "my worst enemy is myself", "a"],
-  };
+    q3: ["your worst enemy is yourself", "my worst enemy is myself"],
+  }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
@@ -23,9 +24,12 @@ const Message = () => {
   };
 
   const checkAnswers = () => {
+    console.log("Q1 Answers from env:", process.env.REACT_APP_Q1_ANSWERS);
+    console.log("Parsed Q1 Answers:", JSON.parse(process.env.REACT_APP_Q1_ANSWERS || '[]'));
+    console.log("All Environment Variables:", process.env);
     const isCorrect = Object.keys(correctAnswers).every((key) =>
       correctAnswers[key as keyof typeof correctAnswers].some(
-        (answer) => answers[key as keyof typeof answers].toLowerCase() === answer.toLowerCase()
+        (answer: string) => answers[key as keyof typeof answers].toLowerCase() === answer.toLowerCase()
       )
     );
 
@@ -43,11 +47,11 @@ const Message = () => {
 
   return (
     <div className="flex flex-col relative z-10 mb-20 items-center justify-center" id="message">
-      <h1 className="heading mt-20 mb-10">
+      <h1 className="heading mt-10 mb-10">
         A section dedicated to <span className="text-purple">family</span>
       </h1>
       <div className="my-10 w-full max-w-7xl mx-auto flex flex-col items-center">
-        <div className="flex flex-row justify-between w-full rounded-lg shadow-lg border border-gray-400 pt-5">
+        <div className="flex flex-row justify-between w-full rounded-lg shadow-lg border-2 border-gray-800 pt-5">
           <div className="mb-6 text-center w-full mx-2 p-4">
             <label htmlFor="q1" className="block text-lg font-semibold mb-2 text-purple"> Guess woot? <br/> woot. </label>
             <input
@@ -69,7 +73,7 @@ const Message = () => {
             />
           </div>
           <div className="mb-6 text-center w-full mx-2 p-4">
-            <label htmlFor="q3" className="block text-lg font-semibold mb-2 text-purple"> What was the main quote coach Brian always told me? (my worst enemy) </label>
+            <label htmlFor="q3" className="block text-lg font-semibold mb-2 text-purple"> What was the main quote coach Brian always told me? (my worst enemy...) </label>
             <input
               type="text"
               name="q3"
@@ -82,7 +86,7 @@ const Message = () => {
         <div className="relative flex items-center justify-center">
           <button
             onClick={checkAnswers}
-            className="border-2 border-white w-[15vw] px-8 py-3 rounded-xl mx-auto mt-10 flex justify-center button-class relative z-20"
+            className="border-2 border-gray-800 w-[15vw] px-8 py-3 rounded-xl mx-auto mt-10 flex justify-center button-class relative z-20 font-semibold"
           >
             Submit
           </button>

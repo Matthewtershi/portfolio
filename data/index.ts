@@ -70,6 +70,7 @@ const fancy = [i61.src, i62.src, i63.src, i64.src, i65.src, i66.src, i67.src];
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
+    { name: "Resume", link: "https://drive.google.com/file/d/1X7vA9Z6WMGvex9XD3zYBzOGEYbiurv91/view?usp=sharing" },
     { name: "Message", link: "#message" },
     { name: "Contact", link: "#contact" },
 ];
@@ -138,7 +139,7 @@ export const projects = [
         description: "Developed a trend analysis program to formulate solutions to the famous NYT game by utilizing information theory, Python pandas, and numpy.",
         img: "/wordle.svg",
         iconLists: ["/python-svgrepo-com.svg", "/pandas-svgrepo-com.svg", "/plot-svgrepo-com.svg"],
-        link: "https://gitfront.io/r/Matthewtershi/4BEfMKwzCBRH/wordleBot/",
+        link: "https://github.com/Matthewtershi/wordleBot",
     },
     {
         id: 2,
@@ -146,7 +147,7 @@ export const projects = [
         description: "Programmed a dynamic weather app that emphasizes allergy monitoring and fluency over cpp and api implementation.",
         img: "/cloud.svg",
         iconLists: ["/api-interface-svgrepo-com.svg", "/cpp-svgrepo-com.svg", "/curl-svgrepo-com.svg", "/c.svg"],
-        link: "https://github.com/LasaACP/spring-practicum-2024-stdmtempest",
+        link: "https://github.com/Matthewtershi/STDMTempest",
     },
     {
         id: 3,
@@ -162,7 +163,7 @@ export const projects = [
         description: "LASA Adv CS Repo 2023-2024 focusing exclusively on data structures and algorithms with CPP. From pointers to graphs and red-black trees, we explored the breadth and depth of each data structure and how to implement and understand them at a low level.",
         img: "/cpp.svg",
         iconLists: ["/cpp-svgrepo-com.svg", "/c.svg"],
-        link: "https://gitfront.io/r/Matthewtershi/iqxJibjSHnvV/AdvCS2023-2024/",
+        link: "https://github.com/Matthewtershi/AdvCS2023-2024",
     },
 ];
 
