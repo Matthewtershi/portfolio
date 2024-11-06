@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import Message from "@/components/Message";
 import Quotes from "@/components/Quotes";
 import Skills from "@/components/Skills";
+import Back from "@/components/Back";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
@@ -15,7 +16,9 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
         <Hero />
+        <Back />
         {/* <Skills /> */}
+        {/* rotating graph element for a backend */}
         <RecentProjects />
         <Quotes />
         <Message />

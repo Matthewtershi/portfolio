@@ -6,7 +6,9 @@ import Gift from "./Gift";
 import Confetti from "../public/confetti.gif"; // Import GIF correctly
 
 const Message = () => {
-  console.log(process.env.REACT_APP_Q1_ANSWERS)
+  // console.log("from message " + process.env.REACT_APP_Q1_ANSWERS)
+  // console.log("from message " + process.env.REACT_APP_Q2_ANSWERS)
+  // console.log("from message " + process.env.REACT_APP_Q3_ANSWERS)
   const [answers, setAnswers] = useState({ q1: "enter your answer here", q2: "enter your answer here", q3: "enter your answer here" });
   const [showGrid, setShowGrid] = useState(false);
   const [showConfetti, setShowConfetti] = useState(false);

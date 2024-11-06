@@ -135,11 +135,11 @@ export const gridItems = [
 export const projects = [
     {
         id: 1,
-        title: "Wordle Bot",
-        description: "Developed a trend analysis program to formulate solutions to the famous NYT game by utilizing information theory, Python pandas, and numpy.",
-        img: "/wordle.svg",
-        iconLists: ["/python-svgrepo-com.svg", "/pandas-svgrepo-com.svg", "/plot-svgrepo-com.svg"],
-        link: "https://github.com/Matthewtershi/wordleBot",
+        title: "Forecast - Forest Fire Predictions",
+        description: "A full stack web application that used A Flask based API, ReactJS frontend, GRIB2 and netCDF4 data sources, and a ML Model with Keras and Scikit to predict and display forest fire predictions. Utilized boosting models, stacking classifiers, and data balancing for higher reliablility.",
+        img: "/head.png",
+        iconLists: ["/python-svgrepo-com.svg", "/keras-svgrepo-com.svg", "/numpy-svgrepo-com.svg", "/plot-svgrepo-com.svg", "/machine-learning-model-svgrepo-com.svg"],
+        link: "https://github.com/Matthewtershi/tamuhack24",
     },
     {
         id: 2,
@@ -151,12 +151,20 @@ export const projects = [
     },
     {
         id: 3,
-        title: "AI Food Recognition and Calorie Tracker",
-        description: "Exploring the development and basic structure of convolutional neural networks in image classification and algorithms to create a 95% accuracy prediction model. In the future, I plan to expand upon the test sets and introduce diverse cuisines to foster inclusion and improve health awareness.",
-        img: "/food-ezgif.com-webp-to-jpg-converter.jpg",
-        iconLists: ["/python-svgrepo-com.svg", "/keras-svgrepo-com.svg", "/numpy-svgrepo-com.svg", "/plot-svgrepo-com.svg", "/machine-learning-model-svgrepo-com.svg"],
-        link: "https://gitfront.io/r/Matthewtershi/rgy3wVJ8iVef/foodRecog/",
+        title: "Wordle Bot",
+        description: "Developed a trend analysis program to formulate solutions to the famous NYT game by utilizing information theory, Python pandas, and numpy.",
+        img: "/wordle.svg",
+        iconLists: ["/python-svgrepo-com.svg", "/pandas-svgrepo-com.svg", "/plot-svgrepo-com.svg"],
+        link: "https://github.com/Matthewtershi/wordleBot",
     },
+    // {
+    //     id: 3,
+    //     title: "AI Food Recognition and Calorie Tracker",
+    //     description: "Exploring the development and basic structure of convolutional neural networks in image classification and algorithms to create a 95% accuracy prediction model. In the future, I plan to expand upon the test sets and introduce diverse cuisines to foster inclusion and improve health awareness.",
+    //     img: "/food-ezgif.com-webp-to-jpg-converter.jpg",
+    //     iconLists: ["/python-svgrepo-com.svg", "/keras-svgrepo-com.svg", "/numpy-svgrepo-com.svg", "/plot-svgrepo-com.svg", "/machine-learning-model-svgrepo-com.svg"],
+    //     link: "https://gitfront.io/r/Matthewtershi/rgy3wVJ8iVef/foodRecog/",
+    // },
     {
         id: 4,
         title: "Advanced CS Course",

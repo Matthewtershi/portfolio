@@ -1,10 +1,47 @@
 import {withSentryConfig} from '@sentry/nextjs';
+import withTM from "next-transpile-modules";
+
+const transpileModules = withTM([
+    "three",
+    "react-three-fiber",
+    "drei",
+]);
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    ...withTM(),
     output: 'export',
     typescript: {
         ignoreBuildErrors:true,
-    }
+    },
+    webpack (config, options) {
+        config.module.rules.push({
+            test: /.*\.(glb|gltf)$/,
+            use: {
+                loader: 'file-loader',
+            }
+        })
+        return config;
+    },
+    // webpack: (config) => {
+    //     config.module.rules.push({
+    //         test: /\.(glb|gltf)$/,
+    //         use: [
+    //             {
+    //             loader: 'file-loader',
+    //             options: {
+    //                 outputPath: 'static/models/',
+    //                 publicPath: '/_next/static/models/',
+    //             },
+    //             },
+    //         ],
+    //         type: 'asset/resource',
+    //         generator: {
+    //             filename: 'static/media/[name].[hash][ext]',
+    //         },
+    //     });
+    //     return config
+    // }
 };
 
 export default withSentryConfig(nextConfig, {
