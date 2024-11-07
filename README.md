@@ -5,18 +5,28 @@ Plans:
 implement custom animations
 implement 3js
 
-VSC Extensions
 ES7+
+
 Tailwind CSS Intel
+
 npm i framer-motion clsx tailwind-merge
+
 npm install tailwindcss-animate
+
 npm install mini-svg-data-uri
+
 npm i next-themes
+
 npx @sentry/wizard@latest -i nextjs
+
 npm install @react-three/fiber
+
 npm install @react-three/drei
+
 npm install @react-spring/three
+
 mpn install -next-transpile-modules
+
 used sentry for error reports
 
 # Installation

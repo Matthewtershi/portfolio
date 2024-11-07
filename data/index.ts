@@ -170,7 +170,7 @@ export const projects = [
 export const testimonials = [
     {
         quote:
-        "You deserve better and should acknowledge that you are capable of doing what anyone else can. How you perceive yourself becomes a massive part of how others will perceive you meaning you're not beneath anyone unless you put yourself there. Argue for your limitations and you get to keep them.",
+        "Argue for your limitations and you get to keep them. You deserve better and should acknowledge that you are capable of doing what anyone else can. How you perceive yourself becomes a massive part of how others will perceive you meaning you're not beneath anyone unless you put yourself there.",
         name: "Illusions",
         title: "Richard Bach",
     },
