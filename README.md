@@ -1,4 +1,4 @@
-# matthewshi.me
+# matthewshi.me (last updated 7/30)
 
 Personal Portfolio for Matthew Shi
 Plans:
