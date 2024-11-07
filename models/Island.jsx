@@ -26,7 +26,7 @@ export function Island({
   const islandRef = useRef();
   // Get access to the Three.js renderer and viewport
   const { gl, viewport } = useThree();
-  const { nodes, materials } = useGLTF("../data/3d_assets/3d/island.glb");
+  const { nodes, materials } = useGLTF("/3d_assets/3d/island.glb");
 
   // Use a ref for the last mouse x position
   const lastX = useRef(0);
@@ -245,5 +245,3 @@ export function Island({
     </a.group>
   );
 }
-
-export default Island
