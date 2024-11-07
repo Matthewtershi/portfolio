@@ -1,9 +1,4 @@
-# matthewshi.me
-
 Personal Portfolio for Matthew Shi
-Plans:
-implement custom animations
-implement 3js
 
 ES7+
 
