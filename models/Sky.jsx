@@ -1,5 +1,5 @@
-import { useGLTF } from '@react-three/drei'
 import React from 'react'
+import { useGLTF } from '@react-three/drei'
 
 const Sky = () => {
     const sky = useGLTF("/3d_assets/3d/sky.glb");

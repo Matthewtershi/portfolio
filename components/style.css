@@ -1005,3 +1005,19 @@ body {
 .not-loaded * {
   animation-play-state: paused !important;
 }/*# sourceMappingURL=style.css.map */
+
+@keyframes appear {
+  from {
+    opacity:0;
+    transform: translateX(100px);
+  } to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.loadinright {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}

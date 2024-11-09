@@ -3,14 +3,12 @@
 import { useState, useEffect } from "react";
 import { Canvas } from "@react-three/fiber";
 import { Suspense } from "react";
-// import sakura from "../assets/sakura.mp3";
 import Loader from "./ui/Loader";
-// import { soundoff, soundon } from "../assets/icons";
-// import { Bird, Island, Plane, Sky } from "../models";
 import Plane from '../models/Plane';
 import Bird from '../models/Bird';
 import Sky from '../models/Sky';
 import IslandModel from '../models/Island';
+import { Stars } from "./StarsCanvas";
 
 const Home = () => {
   // const audioRef = new Audio(sakura);
@@ -41,7 +39,7 @@ const Home = () => {
       }
       return [screenScale, screenPosition];
     } else {
-      return [[1, 1, 1], [0, 0, 0]]; // Default scale and position before window is available
+      return [[1, 1, 1], [0, 0, 0]];
     }
   };
 
@@ -57,7 +55,7 @@ const Home = () => {
       }
       return [screenScale, screenPosition];
     } else {
-      return [[1, 1, 1], [0, 0, 0]]; // Default scale and position before window is available
+      return [[1, 1, 1], [0, 0, 0]];
     }
   };
 
@@ -65,7 +63,7 @@ const Home = () => {
   const [islandScale, islandPosition] = adjustIslandForScreenSize();
 
   return (
-    <section className="w-full h-screen relative border-2 border-red-500">
+    <section className="w-full h-screen relative">
 
       <Canvas
         className={`w-full h-screen bg-transparent ${
@@ -86,10 +84,8 @@ const Home = () => {
           <hemisphereLight
             skyColor="#b1e1ff"
             groundColor="#000000"
-            intensity={1}
+            intensity={0.5}
           />
-
-          <Sky />
           <Bird />
           <IslandModel
             isRotating={isRotating}
@@ -99,24 +95,15 @@ const Home = () => {
             rotation={[0.1, 4.7077, 0]}
             scale={islandScale}
           />
-          <Plane />
-          {/* <Plane
+          <Plane
             isRotating={isRotating}
             position={biplanePosition}
             rotation={[0, 20.1, 0]}
             scale={biplaneScale}
-          /> */}
+          />
         </Suspense>
       </Canvas>
 
-      {/* <div className="absolute bottom-2 left-2">
-        <img
-          src={!isPlayingMusic ? soundoff : soundon}
-          alt="jukebox"
-          onClick={() => setIsPlayingMusic(!isPlayingMusic)}
-          className="w-10 h-10 cursor-pointer object-contain"
-        />
-      </div> */}
     </section>
   );
 };
