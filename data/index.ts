@@ -62,8 +62,8 @@ import i67 from "./assets/6.7.jpg"
 
 const baseball = [i11.src, i12.src, i13.src, i14.src, i15.src, i16.src, i17.src, i18.src, i19.src, i110.src, i111.src, i112.src];
 const travel = [i21.src, i22.src, i23.src, i24.src, i25.src, i26.src];
-const family = [i31.src, i32.src, i33.src, i34.src, i35.src, i36.src];
-const friends = [i41.src, i42.src, i43.src, i44.src, i45.src, i46.src, i47.src, i48.src];
+const family = [i31.src, i32.src, i33.src, i34.src, i35.src, i36.src, i37.src];
+const friends = [i41.src, i42.src, i43.src, i44.src, i45.src, i46.src, i47.src, i48.src, i49.src, i410.src];
 const brainrot = [i51.src, i52.src, i53.src, i54.src, i55.src, i56.src, i57.src, i58.src, i59.src, i510.src, i511.src];
 const fancy = [i61.src, i62.src, i63.src, i64.src, i65.src, i66.src, i67.src];
 
@@ -182,7 +182,7 @@ export const testimonials = [
     },
     {
         quote:
-        "People who work hard won’t always succeed but the people who succeed always work hard. Do you really have time to be looking down; Nothing is stopping you from taking the next step.",
+        "Do you really have time to be looking down; Nothing is stopping you from taking the next step. People who work hard won’t always succeed but the people who succeed always work hard.",
         name: "Haiykuu",
         title: "Haruichi Furudate",
     },

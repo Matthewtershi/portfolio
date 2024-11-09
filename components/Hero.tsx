@@ -2,12 +2,16 @@ import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import { MagicButton } from './ui/MagicButton'
+import { Compare } from './ui/compare'
 import { FaLocationArrow } from 'react-icons/fa6'
+
 import "animate.css"
+import sunset from "../data/assets/sunset.png"
+import code from "../data/assets/code.png"
 
 const Hero = () => {
   return (
-    <div className="pb-60 pt-40 mb-20 items-center">
+    <div className="pb-60 pt-32 mb-20 items-center">
         <div>
             <Spotlight className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen" fill="white" />
             <Spotlight className="-top-40 -left-full h-[80vh] w-[50vw]" fill="purple" />
@@ -19,17 +23,17 @@ const Hero = () => {
         </div>
 
         <div className="flex justify-center relative my-20 z-30">
-            <div className="max-w-[95vw] md:max-w-2xl lg:max-w-[30vw] flex flex-col items-center justify-center">
-                <h2 className="uppercase tracking-widest text-cs text-center text-blue-100 max-w-80"> 
+            <div className="max-w-[95vw] md:max-w-2xl lg:max-w-[30vw] flex flex-col justify-center">
+                <h2 className="uppercase tracking-widest text-cs text-left text-blue-100 max-w-80"> 
                     project graduated
                 </h2>
 
                 <TextGenerateEffect 
-                    className="text-center text-[40px] md:text-5xl lg:text-6xl"
+                    className="text-left text-6xl lg:text-7xl"
                     words="Hi, I'm Matthew"
                 />
 
-                <p className="text-center md:tracking wider mb-4 text-md md:text-xl animate__animated animate__fadeInLeft">
+                <p className="text-left md:tracking wider mb-4 text-md md:text-xl animate__animated animate__fadeInLeft">
                     I'm currently a freshman at Texas A&M University
                     interested in <span className="text-purple">machine learning</span>, <span className="text-purple">environmental work</span>, and <span className="text-purple">service</span>
                 </p>
@@ -43,8 +47,17 @@ const Hero = () => {
                 </a>
             </div>
 
-            <div className="bg-pink-50 ml-[10vw] w-[30vw]">
-                animation
+            <div className=" ml-[10vw] w-[30vw]">
+                <div className="p-4 border rounded-3xl dark:bg-neutral-900 bg-neutral-100  border-neutral-200 dark:border-neutral-800 px-4">
+                    <Compare
+                        firstImage="https://assets.aceternity.com/code-problem.png"
+                        secondImage="https://assets.aceternity.com/code-solution.png"
+                        firstImageClassName="object-cover object-left-top"
+                        secondImageClassname="object-cover object-left-top"
+                        className="h-[250px] w-[200px] md:h-[500px] md:w-[500px]"
+                        slideMode="hover"
+                    />
+                </div>
             </div>
         </div>
     </div>

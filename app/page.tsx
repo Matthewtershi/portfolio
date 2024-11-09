@@ -20,7 +20,7 @@ export default function Home() {
         {/* <Skills /> */}
         <RecentProjects />
         <Quotes />
-        <div className = "relative z-0  justify-center items-center">
+        <div className = "relative z-10  justify-center items-center">
             <StarsCanvas />
             <Back />
         </div>
