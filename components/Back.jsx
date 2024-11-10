@@ -69,7 +69,7 @@ const Home = () => {
       >
         <Suspense fallback={<Loader />}>
           <directionalLight position={[1, 2, 1]} intensity={2} />
-          <ambientLight intensity={0.5} />
+          <ambientLight intensity={0.4} />
           <pointLight position={[10, 5, 10]} intensity={2} />
           <spotLight
             position={[0, 50, 10]}
@@ -82,9 +82,9 @@ const Home = () => {
             groundColor="#000000"
             intensity={0.5}
           />
-          <Bird />
+          {/* <Bird /> */}
           <IslandModel
-            isRotating={isRotating}
+            isRotating={true}
             setIsRotating={setIsRotating}
             setCurrentStage={setCurrentStage}
             position={islandPosition}

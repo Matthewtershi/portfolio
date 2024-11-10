@@ -13,16 +13,15 @@ const Plane: React.FC<PlaneProps> = ({ isRotating, ...props }) => {
     const { scene, animations } = useGLTF("/3d_assets/3d/plane.glb");
     const { actions } = useAnimations(animations, ref);
 
-    useEffect(() => {
-        console.log(isRotating)
-        if (actions && actions['Take 001']) {
-            if (isRotating) {
-                actions['Take 001'].play();
-            } else {
-                actions['Take 001'].stop();
-            }
-        }
-    })
+    // useEffect(() => {
+    //     if (actions && actions['Take 001']) {
+    //         if (isRotating) {
+    //             actions['Take 001'].play();
+    //         } else {
+    //             actions['Take 001'].stop();
+    //         }
+    //     }
+    // })
 
     return (
         <mesh {...props}>

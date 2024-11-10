@@ -5,7 +5,7 @@ import { socialMedia } from '@/data'
 
 const Footer = () => {
   return (
-    <footer className="w-full mt-20 md:mb-10 mb-[200px] pb-10 relative overflow-hidden" id="contact">
+    <footer className="items-center max-w-7xl w-full mt-20 md:mb-10 mb-[200px] pb-10 relative overflow-hidden mx-auto" id="contact">
         <div className="w-full absolute left-0 bottom-0 h-[300px]">
             <img src="/footer-grid.svg" className="w-full h-full opacity-65 object-cover" />
         </div>

@@ -11,8 +11,9 @@ import code from "../data/assets/code.png"
 
 const Hero = () => {
   return (
-    <div className="pb-60 pt-32 mb-20 items-center">
+    <div className="mx-auto max-w-7xl pb-60 pt-32 mb-20 items-center">
         <div>
+            <Spotlight className="inset-y-0 right-0 h-screen" fill="purple" />
             <Spotlight className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen" fill="white" />
             <Spotlight className="-top-40 -left-full h-[80vh] w-[50vw]" fill="purple" />
             <Spotlight className="top-28 left-80 h-[80vh] w-[50vw]" fill="blue" />
@@ -34,7 +35,7 @@ const Hero = () => {
                 />
 
                 <p className="text-left md:tracking wider mb-4 text-md md:text-xl animate__animated animate__fadeInLeft">
-                    I'm currently a freshman at Texas A&M University
+                    I&apos;m currently a freshman at Texas A&M University
                     interested in <span className="text-purple">machine learning</span>, <span className="text-purple">environmental work</span>, and <span className="text-purple">service</span>
                 </p>
 

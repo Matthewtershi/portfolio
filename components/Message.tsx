@@ -48,11 +48,11 @@ const Message = () => {
   };
 
   return (
-    <div className="flex flex-col relative z-10 mb-20 items-center justify-center" id="message">
+    <div className="max-w-7xl mx-auto flex flex-col relative z-10 mb-20 items-center justify-center" id="message">
       <h1 className="heading mt-10 mb-10">
         A section dedicated to <span className="text-purple">family</span>
       </h1>
-      <div className="my-10 w-full max-w-7xl mx-auto flex flex-col items-center">
+      <div className="my-10 w-full max-w-7xl mx-auto flex flex-col items-center loadinleft">
         <div className="flex flex-row justify-between w-full rounded-lg shadow-lg border-2 border-gray-800 pt-5">
           <div className="mb-6 text-center w-full mx-2 p-4">
             <label htmlFor="q1" className="block text-lg font-semibold mb-2 text-purple"> Guess woot? <br/> woot. </label>
