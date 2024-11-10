@@ -144,7 +144,7 @@ export const projects = [
     {
         id: 2,
         title: "STD Tempest Dynamic Weather App",
-        description: "Programmed a dynamic weather app that emphasizes allergy monitoring and fluency over cpp and api implementation.",
+        description: "Programmed a dynamic weather app that emphasizes allergy monitoring and fluency over APP and API implementation.",
         img: "/cloud.svg",
         iconLists: ["/api-interface-svgrepo-com.svg", "/cpp-svgrepo-com.svg", "/curl-svgrepo-com.svg", "/c.svg"],
         link: "https://github.com/Matthewtershi/STDMTempest",

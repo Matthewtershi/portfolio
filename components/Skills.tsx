@@ -4,9 +4,9 @@ import { companies, testimonials } from '@/data'
 
 const Skills = () => {
   return (
-    <div className="py-20 mt-40" id="about">
+    <div className="py-20 mt-15" id="about">
         <h1 className="heading">
-            A few of  {' '}<span className="text-purple"> my Skills </span>
+            What I like to  {' '}<span className="text-purple"> use </span>
             
         </h1>
         

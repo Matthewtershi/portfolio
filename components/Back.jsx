@@ -11,10 +11,6 @@ import IslandModel from '../models/Island';
 import { Stars } from "./StarsCanvas";
 
 const Home = () => {
-  // const audioRef = new Audio(sakura);
-  // audioRef.volume = 0.4;
-  // audioRef.loop = true;
-
   const [currentStage, setCurrentStage] = useState(1);
   const [isRotating, setIsRotating] = useState(false);
   // const [isPlayingMusic, setIsPlayingMusic] = useState(false);

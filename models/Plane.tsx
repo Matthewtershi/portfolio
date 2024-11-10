@@ -2,7 +2,12 @@ import React, { useEffect, useRef } from 'react'
 import { useAnimations, useGLTF } from '@react-three/drei';
 
 
-const Plane = ({isRotating, ...props}) => {
+interface PlaneProps {
+    isRotating: boolean;
+    [key: string]: any; // allows other props to be passed as well
+}
+
+const Plane: React.FC<PlaneProps> = ({ isRotating, ...props }) => {
     
     const ref = useRef();
     const { scene, animations } = useGLTF("/3d_assets/3d/plane.glb");

@@ -17,14 +17,14 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
         <Hero />
-        {/* <Skills /> */}
         <RecentProjects />
+        {/* <Skills /> */}
         <Quotes />
-        <div className = "relative z-10  justify-center items-center">
+        <Message />
+        <div className = "relative z-10 w-screen mx-1">
             <StarsCanvas />
             <Back />
         </div>
-        <Message />
         <Footer />
       </div>
     </main>
